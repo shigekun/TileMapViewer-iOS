@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4E7889177C51E4004390AA /* TileMapViewerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4E7888177C51E4004390AA /* TileMapViewerStoryboard.storyboard */; };
 		1A64FF051774423100D0585C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A64FF041774423100D0585C /* UIKit.framework */; };
 		1A64FF071774423100D0585C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A64FF061774423100D0585C /* Foundation.framework */; };
 		1A64FF091774423100D0585C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A64FF081774423100D0585C /* CoreGraphics.framework */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4E7888177C51E4004390AA /* TileMapViewerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TileMapViewerStoryboard.storyboard; sourceTree = "<group>"; };
 		1A64FF011774423100D0585C /* TileMapViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileMapViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A64FF041774423100D0585C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A64FF061774423100D0585C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -130,6 +132,7 @@
 		1A64FEF81774423100D0585C = {
 			isa = PBXGroup;
 			children = (
+				1A4E7888177C51E4004390AA /* TileMapViewerStoryboard.storyboard */,
 				1A64FF5C1774439E00D0585C /* CoreLocation.framework */,
 				1A64FF5A1774438800D0585C /* SystemConfiguration.framework */,
 				1A64FF581774437F00D0585C /* QuartzCore.framework */,
@@ -297,6 +300,7 @@
 				1A64FF1E1774423100D0585C /* MainStoryboard_iPhone.storyboard in Resources */,
 				1A64FF211774423100D0585C /* MainStoryboard_iPad.storyboard in Resources */,
 				1A64FF45177442BC00D0585C /* GoogleMaps.bundle in Resources */,
+				1A4E7889177C51E4004390AA /* TileMapViewerStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +540,7 @@
 				1A64FF3E1774423100D0585C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A64FF3F1774423100D0585C /* Build configuration list for PBXNativeTarget "TileMapViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +549,7 @@
 				1A64FF411774423100D0585C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
